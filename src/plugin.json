@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Remote Markdown",
+  "id": "nmcclain-remotemarkdown-panel",
+  "info": {
+    "keywords": [
+      "panel"
+    ],
+    "description": "Panel to render a remote markdown file",
+    "author": {
+      "name": "Ned McClain",
+      "url": "https://nedmcclain.com"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "screenshots": [
+      {
+        "name": "overview",
+        "path": "img/remote-markdown-panel-overview.png"
+      },
+      {
+        "name": "settings",
+        "path": "img/remote-markdown-panel-settings.png"
+      }
+    ],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/nmcclain/remotemarkdown-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/nmcclain/remotemarkdown-panel/blob/master/LICENSE"
+      },
+      {
+        "name": "New Moon Labs",
+        "url": "https://www.newmoonlabs.com"
+      }
+    ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "skipDataQuery": true,
+  "dependencies": {
+    "grafanaDependency": ">=9.3.8",
+    "plugins": []
+  }
+}
